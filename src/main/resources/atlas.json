@@ -1,0 +1,298 @@
+{
+	"blocks" : {
+		"grass" : {
+			"id" : 1,
+			"transparent" : false,
+			"liquid" : false,
+			"hidePattern" : 0,
+			"mesh" : "/meshes/block.json",
+			"textures" : {
+				"images" : ["/images/dirt.png", "/images/grass.png", "/images/grass_top.png"],
+				"config" : {
+					"top" : 2,
+					"down" : 0,
+					"right" : 1,
+					"left" : 1,
+					"front" : 1,
+					"back" : 1
+				}
+			}
+		},
+		"coal" : {
+			"id" : 2,
+			"transparent" : false,
+			"liquid" : false,
+			"hidePattern" : 0,
+			"mesh" : "/meshes/block.json",
+			"textures" : {
+				"images" : ["/images/coal.png"],
+				"config" : {
+					"top" : 0,
+					"down" : 0,
+					"right" : 0,
+					"left" : 0,
+					"front" : 0,
+					"back" : 0
+				}
+			}
+		},
+		"stone" : {
+			"id" : 3,
+			"transparent" : false,
+			"liquid" : false,
+			"hidePattern" : 0,
+			"mesh" : "/meshes/block.json",
+			"textures" : {
+				"images" : ["/images/stone.png"],
+				"config" : {
+					"top" : 0,
+					"down" : 0,
+					"right" : 0,
+					"left" : 0,
+					"front" : 0,
+					"back" : 0
+				}
+			}
+		},
+		"wood" : {
+			"id" : 4,
+			"transparent" : false,
+			"liquid" : false,
+			"hidePattern" : 0,
+			"mesh" : "/meshes/block.json",
+			"textures" : {
+				"images" : ["/images/wood.png"],
+				"config" : {
+					"top" : 0,
+					"down" : 0,
+					"right" : 0,
+					"left" : 0,
+					"front" : 0,
+					"back" : 0
+				}
+			}
+		},
+		"wood_log" : {
+			"id" : 5,
+			"transparent" : false,
+			"liquid" : false,
+			"hidePattern" : 0,
+			"mesh" : "/meshes/block.json",
+			"textures" : {
+				"images" : ["/images/wood_log.png", "/images/wood_log_top.png"],
+				"config" : {
+					"top" : 1,
+					"down" : 1,
+					"right" : 0,
+					"left" : 0,
+					"front" : 0,
+					"back" : 0
+				}
+			}
+		},
+		"leaves" : {
+			"id" : 6,
+			"transparent" : true,
+			"liquid" : false,
+			"hidePattern" : 63,
+			"mesh" : "/meshes/block.json",
+			"textures" : {
+				"images" : ["/images/leaves.png"],
+				"config" : {
+					"top" : 0,
+					"down" : 0,
+					"right" : 0,
+					"left" : 0,
+					"front" : 0,
+					"back" : 0
+				}
+			}
+		},
+		"cobblestone" : {
+			"id" : 7,
+			"transparent" : false,
+			"liquid" : false,
+			"hidePattern" : 0,
+			"mesh" : "/meshes/block.json",
+			"textures" : {
+				"images" : ["/images/cobblestone.png"],
+				"config" : {
+					"top" : 0,
+					"down" : 0,
+					"right" : 0,
+					"left" : 0,
+					"front" : 0,
+					"back" : 0
+				}
+			}
+		},
+		"dirt" : {
+			"id" : 8,
+			"transparent" : false,
+			"liquid" : false,
+			"hidePattern" : 0,
+			"mesh" : "/meshes/block.json",
+			"textures" : {
+				"images" : ["/images/dirt.png"],
+				"config" : {
+					"top" : 0,
+					"down" : 0,
+					"right" : 0,
+					"left" : 0,
+					"front" : 0,
+					"back" : 0
+				}
+			}
+		},
+		"sand" : {
+			"id" : 9,
+			"transparent" : false,
+			"liquid" : false,
+			"hidePattern" : 0,
+			"mesh" : "/meshes/block.json",
+			"textures" : {
+				"images" : ["/images/sand.png"],
+				"config" : {
+					"top" : 0,
+					"down" : 0,
+					"right" : 0,
+					"left" : 0,
+					"front" : 0,
+					"back" : 0
+				}
+			}
+		},
+		"glass" : {
+			"id" : 10,
+			"transparent" : true,
+			"liquid" : false,
+			"hidePattern" : 63,
+			"mesh" : "/meshes/block.json",
+			"textures" : {
+				"images" : ["/images/glass.png"],
+				"config" : {
+					"top" : 0,
+					"down" : 0,
+					"right" : 0,
+					"left" : 0,
+					"front" : 0,
+					"back" : 0
+				}
+			}
+		},
+		"water" : {
+			"id" : 11,
+			"transparent" : true,
+			"liquid" : true,
+			"hidePattern" : 63,
+			"mesh" : "/meshes/block.json",
+			"textures" : {
+				"images" : ["/images/water.png"],
+				"config" : {
+					"top" : 0,
+					"down" : 0,
+					"right" : 0,
+					"left" : 0,
+					"front" : 0,
+					"back" : 0
+				}
+			}
+		},
+		"flower_red" : {
+			"id" : 12,
+			"transparent" : true,
+			"liquid" : false,
+			"hidePattern" : 63,
+			"mesh" : "/meshes/sprite.json",
+			"textures" : {
+				"images" : ["/images/flower_red.png"],
+				"config" : {
+					"front" : 0,
+					"right" : 0
+				}
+			}
+		},
+		"flower_yellow" : {
+			"id" : 13,
+			"transparent" : true,
+			"liquid" : false,
+			"hidePattern" : 63,
+			"mesh" : "/meshes/sprite.json",
+			"textures" : {
+				"images" : ["/images/flower_yellow.png"],
+				"config" : {
+					"front" : 0,
+					"right" : 0
+				}
+			}
+		},
+		"bush" : {
+			"id" : 14,
+			"transparent" : true,
+			"liquid" : false,
+			"hidePattern" : 63,
+			"mesh" : "/meshes/sprite.json",
+			"textures" : {
+				"images" : ["/images/bush.png"],
+				"config" : {
+					"front" : 0,
+					"right" : 0
+				}
+			}
+		},
+		"cactus" : {
+			"id" : 15,
+			"transparent" : false,
+			"liquid" : false,
+			"hidePattern" : 63,
+			"mesh" : "/meshes/cactus.json",
+			"textures" : {
+				"images" : ["/images/cactus_bottom.png", "/images/cactus_side.png", "/images/cactus_top.png"],
+				"config" : {
+					"top" : 2,
+					"down" : 0,
+					"right" : 1,
+					"left" : 1,
+					"front" : 1,
+					"back" : 1
+				}
+			}
+		},
+		"debug" : {
+			"id" : 16,
+			"transparent" : false,
+			"liquid" : false,
+			"hidePattern" : 57,
+			"mesh" : "/meshes/stairs.json",
+			"textures" : {
+				"images" : ["/images/debug.png"],
+				"config" : {
+					"top" : 0,
+					"down" : 0,
+					"right" : 0,
+					"left" : 0,
+					"front" : 0,
+					"back" : 0
+				}
+			}
+		},
+		"torch" : {
+			"id" : 17,
+			"transparent" : false,
+			"liquid" : false,
+			"hidePattern" : 63,
+			"mesh" : "/meshes/torch.json",
+			"textures" : {
+				"images" : ["/images/torch.png"],
+				"config" : {
+					"top" : 0,
+					"down" : 0,
+					"right" : 0,
+					"left" : 0,
+					"front" : 0,
+					"back" : 0
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+plugins {
+	id 'java'
+	id 'application'
+	id 'org.openjfx.javafxplugin' version '0.0.13'
+}
+
+group 'com.orangomango'
+version '1.0-SNAPSHOT'
+
+repositories {
+	mavenCentral()
+	/*maven {
+		url "https://repo.spongepowered.org/repository/maven-public/"
+	}*/
+}
+
+sourceCompatibility = '17'
+targetCompatibility = '17'
+
+application {
+	mainModule = 'com.orangomango.blockworld'
+	mainClass = 'com.orangomango.blockworld.MainApplication'
+	applicationDefaultJvmArgs = ["-Dprism.forceGPU=true"]
+}
+
+run {
+	standardInput = System.In
+}
+
+javafx {
+	version = '17.0.2'
+	modules = ['javafx.controls']
+	String path = System.getenv("JAVAFX_PATH")
+	if (path != null && !path.isBlank()){
+		sdk = path
+	}
+}
+
+dependencies {
+	implementation fileTree(dir: 'libs')
+	implementation "org.json:json:20220924"
+	//implementation "org.spongepowered:noise:2.0.0-SNAPSHOT"
+	//implementation 'org.xerial:sqlite-jdbc:3.41.2.1'
+}

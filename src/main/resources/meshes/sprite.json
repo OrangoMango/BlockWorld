@@ -1,0 +1,18 @@
+{
+	"elements" : [
+		{
+			"from" : [0, 0, 8],
+			"to" : [16, 16, 8],
+			"faces" : {
+				"front" : {"uv" : [0, 0, 16, 16], "culling" : false}
+			}
+		},
+		{
+			"from" : [8, 0, 0],
+			"to" : [8, 16, 16],
+			"faces" : {
+				"right" : {"uv" : [0, 0, 16, 16], "culling" : false}
+			}
+		}
+	]
+}

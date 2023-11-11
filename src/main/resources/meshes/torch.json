@@ -1,0 +1,28 @@
+{
+	"elements" : [
+		{
+			"from" : [7, 6, 7],
+			"to" : [9, 16, 9],
+			"faces" : {
+				"down" : {"uv" : [7, 13, 9, 15], "culling" : false},
+				"top" : {"uv" : [7, 6, 9, 8], "culling" : false}
+			}
+		},
+		{
+			"from" : [7, 0, 0],
+			"to" : [9, 16, 16],
+			"faces" : {
+				"right" : {"uv" : [0, 0, 16, 16], "culling" : false},
+				"left" : {"uv" : [0, 0, 16, 16], "culling" : false}
+			}
+		},
+		{
+			"from" : [0, 0, 7],
+			"to" : [16, 16, 9],
+			"faces" : {
+				"front" : {"uv" : [0, 0, 16, 16], "culling" : false},
+				"back" : {"uv" : [0, 0, 16, 16], "culling" : false}
+			}
+		}
+	]
+}
